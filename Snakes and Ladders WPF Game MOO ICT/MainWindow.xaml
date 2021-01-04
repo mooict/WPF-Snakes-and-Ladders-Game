@@ -1,0 +1,26 @@
+﻿<Window x:Class="Snakes_and_Ladders_WPF_Game_MOO_ICT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Snakes_and_Ladders_WPF_Game_MOO_ICT"
+        mc:Ignorable="d"
+        Title="Snakes and Ladders MOO ICT" Height="800" Width="800">
+    <Canvas Name="MyCanvas" Focusable="True" MouseLeftButtonDown="OnClickEvent" Background="Gray">
+
+        <Label FontSize="26" FontWeight="ExtraBold" Content="Snakes and Ladders Game MOO ICT" Foreground="White" Canvas.Left="170" Canvas.Top="-10" />
+        <Label FontSize="16" FontWeight="Bold" Content="Click anywhere on the game to take your turn, CPU will take turn after you" Foreground="White" Canvas.Left="122" Canvas.Top="27" />
+
+        <Image Source="images/player.gif" Width="30" Canvas.Left="70" Canvas.Top="709" />
+        <Image Source="images/opponent.gif" Width="30" Canvas.Left="497" Canvas.Top="709" />
+
+        <Label Name="txtPlayer" FontSize="16" FontWeight="Bold" Content="00" Canvas.Left="105" Canvas.Top="709" />
+        <Label Name="txtPlayerPosition" FontSize="16" FontWeight="Bold" Content="Player is @ 00" Canvas.Left="105" Canvas.Top="733" />
+
+
+        <Label Name="txtOpponent" FontSize="16" FontWeight="Bold" Content="00" Canvas.Left="532" Canvas.Top="709" />
+        <Label Name="txtOpponentPosition" FontSize="16" FontWeight="Bold" Content="Opponent is @ 00" Canvas.Left="532" Canvas.Top="733" />
+
+
+    </Canvas>
+</Window>

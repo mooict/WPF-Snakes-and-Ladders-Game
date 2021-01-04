@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{459A7BF6-4006-4172-9907-2AF656605BEF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Snakes_and_Ladders_WPF_Game_MOO_ICT</RootNamespace>
+    <AssemblyName>Snakes and Ladders WPF Game MOO ICT</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\0.jpg" />
+    <Resource Include="images\1.jpg" />
+    <Resource Include="images\10.jpg" />
+    <Resource Include="images\11.jpg" />
+    <Resource Include="images\12.jpg" />
+    <Resource Include="images\13.jpg" />
+    <Resource Include="images\14.jpg" />
+    <Resource Include="images\15.jpg" />
+    <Resource Include="images\16.jpg" />
+    <Resource Include="images\17.jpg" />
+    <Resource Include="images\18.jpg" />
+    <Resource Include="images\19.jpg" />
+    <Resource Include="images\2.jpg" />
+    <Resource Include="images\20.jpg" />
+    <Resource Include="images\21.jpg" />
+    <Resource Include="images\22.jpg" />
+    <Resource Include="images\23.jpg" />
+    <Resource Include="images\24.jpg" />
+    <Resource Include="images\25.jpg" />
+    <Resource Include="images\26.jpg" />
+    <Resource Include="images\27.jpg" />
+    <Resource Include="images\28.jpg" />
+    <Resource Include="images\29.jpg" />
+    <Resource Include="images\3.jpg" />
+    <Resource Include="images\30.jpg" />
+    <Resource Include="images\31.jpg" />
+    <Resource Include="images\32.jpg" />
+    <Resource Include="images\33.jpg" />
+    <Resource Include="images\34.jpg" />
+    <Resource Include="images\35.jpg" />
+    <Resource Include="images\36.jpg" />
+    <Resource Include="images\37.jpg" />
+    <Resource Include="images\38.jpg" />
+    <Resource Include="images\39.jpg" />
+    <Resource Include="images\4.jpg" />
+    <Resource Include="images\40.jpg" />
+    <Resource Include="images\41.jpg" />
+    <Resource Include="images\42.jpg" />
+    <Resource Include="images\43.jpg" />
+    <Resource Include="images\44.jpg" />
+    <Resource Include="images\45.jpg" />
+    <Resource Include="images\46.jpg" />
+    <Resource Include="images\47.jpg" />
+    <Resource Include="images\48.jpg" />
+    <Resource Include="images\49.jpg" />
+    <Resource Include="images\5.jpg" />
+    <Resource Include="images\50.jpg" />
+    <Resource Include="images\51.jpg" />
+    <Resource Include="images\52.jpg" />
+    <Resource Include="images\53.jpg" />
+    <Resource Include="images\54.jpg" />
+    <Resource Include="images\55.jpg" />
+    <Resource Include="images\56.jpg" />
+    <Resource Include="images\57.jpg" />
+    <Resource Include="images\58.jpg" />
+    <Resource Include="images\59.jpg" />
+    <Resource Include="images\6.jpg" />
+    <Resource Include="images\60.jpg" />
+    <Resource Include="images\61.jpg" />
+    <Resource Include="images\62.jpg" />
+    <Resource Include="images\63.jpg" />
+    <Resource Include="images\64.jpg" />
+    <Resource Include="images\65.jpg" />
+    <Resource Include="images\66.jpg" />
+    <Resource Include="images\67.jpg" />
+    <Resource Include="images\68.jpg" />
+    <Resource Include="images\69.jpg" />
+    <Resource Include="images\7.jpg" />
+    <Resource Include="images\70.jpg" />
+    <Resource Include="images\71.jpg" />
+    <Resource Include="images\72.jpg" />
+    <Resource Include="images\73.jpg" />
+    <Resource Include="images\74.jpg" />
+    <Resource Include="images\75.jpg" />
+    <Resource Include="images\76.jpg" />
+    <Resource Include="images\77.jpg" />
+    <Resource Include="images\78.jpg" />
+    <Resource Include="images\79.jpg" />
+    <Resource Include="images\8.jpg" />
+    <Resource Include="images\80.jpg" />
+    <Resource Include="images\81.jpg" />
+    <Resource Include="images\82.jpg" />
+    <Resource Include="images\83.jpg" />
+    <Resource Include="images\84.jpg" />
+    <Resource Include="images\85.jpg" />
+    <Resource Include="images\86.jpg" />
+    <Resource Include="images\87.jpg" />
+    <Resource Include="images\88.jpg" />
+    <Resource Include="images\89.jpg" />
+    <Resource Include="images\9.jpg" />
+    <Resource Include="images\90.jpg" />
+    <Resource Include="images\91.jpg" />
+    <Resource Include="images\92.jpg" />
+    <Resource Include="images\93.jpg" />
+    <Resource Include="images\94.jpg" />
+    <Resource Include="images\95.jpg" />
+    <Resource Include="images\96.jpg" />
+    <Resource Include="images\97.jpg" />
+    <Resource Include="images\98.jpg" />
+    <Resource Include="images\99.jpg" />
+    <Resource Include="images\opponent.gif" />
+    <Resource Include="images\player.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
